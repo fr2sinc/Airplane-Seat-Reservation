@@ -1,0 +1,208 @@
+html {
+    font-size: 16px;
+}
+
+.plane {
+    /*border: solid 2px black;*/
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 380px;
+    flex-wrap: nowrap;
+}
+
+.plane_table {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 380px;
+    flex-wrap: nowrap;
+}
+
+.block_header {
+    background-color: #343ed1;
+    padding: 5px;
+    border-radius: 12px;
+    margin: 25px;
+    text-align: center;
+}
+
+.text_header {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #edf2f9;
+}
+
+.text_font {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #343ed1;
+}
+
+.text_font_black {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+}
+
+.navbar {
+    /*background-color: #2197f2;*/
+    padding: 5px;
+    border-radius: 12px;
+    margin: 25px;
+    text-align: center;
+    float: left;
+    /*background-color: #343ed1;*/
+    width: 20%;
+}
+
+.navbar_button {
+    cursor: pointer;
+    background-color: #f9d316;
+    text-align: center;
+    color: #1223bc;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 105%;
+    border-color: #f9d316;
+    border-style: solid;
+    flex-wrap: nowrap;
+}
+
+.acquista_aggiorna_container {
+    /*background-color: #2197f2;*/
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    height: 200px;
+    max-width: 380px;
+    /*border: 2px solid black;*/
+}
+
+.acquista_aggiorna_button_container {
+    margin: 10px;
+    /*border: 2px solid black;*/
+    height: 50px;
+}
+
+.acquista_aggiorna_button {
+    cursor: pointer;
+    background-color: #f9d316;
+    text-align: center;
+    color: #1223bc;
+    width: 230px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 105%;
+    border-color: #f9d316;
+    border-style: solid;
+    border-radius: 15px;
+}
+
+.acquista_aggiorna_button:hover {
+    background-color: #fffda3;
+    border-color: #fffda3;
+    color: #2823ce;
+}
+
+.navbar_button:hover {
+    background-color: #fffda3;
+    border-color: #fffda3;
+    color: #2823ce;
+}
+
+.navbar_button_container {
+    height: 60px;
+}
+
+.input_container {
+    height: 60px;
+}
+
+.imput_message_error {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 80%;
+    color: red;
+}
+
+.submit_button {
+    background-color: #f9d316;
+    text-align: center;
+    color: #1223bc;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 80%;
+    border-color: #f9d316;
+    border-style: solid;
+    border-radius: 12px;
+}
+
+.input_box {
+    padding: 3px;
+    width: 80%;
+    height: 30px;
+    font-size: 80%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 1px solid #ccc;
+    border-radius: 3px/6px;
+}
+
+.box_registration {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15;
+    max-width: 300px;
+    max-height: 350px;
+    margin-top: 50px;
+    height: 80vh;
+    background: #F2F2F2;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 2px #fff inset, -1px -1px 2px #fff inset;
+    border-radius: 3px/6px;
+}
+
+td {
+    width: 30px;
+    height: 40px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1.5rem;
+    /*padding: 4px 0;*/
+    border-radius: 5px;
+}
+
+.seat_libero {
+    background-color: chartreuse;
+}
+
+.seat_libero:hover {
+    background-color: #91f294;
+    color: #343ed1;
+}
+
+.seat_temp_prenotato {
+    background-color: yellow;
+}
+
+.seat_temp_prenotato:hover {
+    background-color: #e4f990;
+    color: #343ed1;
+}
+
+.seat_prenotato {
+    background-color: orange;
+}
+
+.seat_prenotato:hover {
+    background-color: #ffe470;
+    color: #343ed1;
+}
+
+.seat_venduto {
+    background-color: red;
+}
